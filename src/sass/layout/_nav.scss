@@ -1,0 +1,27 @@
+
+#nav {
+    background: $color-purple;
+    margin-bottom: $sections-margin;
+    
+    img {
+      height: auto;
+      margin: calc(#{$sections-margin} / 2) 0;
+      max-width: 100%;
+      width: 100px;
+    }
+  
+    .nav-link {
+      color: white;
+    }
+  
+    .nav-link:hover {
+      background: white;
+      color: $color-purple;
+      transition: all .3s;
+  
+      .active, .btn:hover {
+        background-color: white;
+      }
+    }
+  }
+  

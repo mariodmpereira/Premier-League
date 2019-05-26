@@ -1,0 +1,43 @@
+#nav {
+  background: #34003B;
+  margin-bottom: 50px;
+}
+#nav img {
+  height: auto;
+  margin: calc(50px / 2) 0;
+  max-width: 100%;
+  width: 100px;
+}
+#nav .nav-link {
+  color: white;
+}
+#nav .nav-link:hover {
+  background: white;
+  color: #34003B;
+  transition: all 0.3s;
+}
+#nav .nav-link:hover .active, #nav .nav-link:hover .btn:hover {
+  background-color: white;
+}
+
+.card-deck {
+  margin-bottom: 50px;
+}
+.card-deck .card {
+  width: 45%;
+  padding-bottom: 50px;
+}
+.card-deck .card .clubs-logo {
+  align-items: center;
+  justify-items: center;
+  margin: 50px;
+  height: 100px;
+}
+.card-deck .card .card-footer {
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
