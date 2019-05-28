@@ -20,6 +20,27 @@
   background-color: white;
 }
 
+.card-img {
+  margin: 50px;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.card-body {
+  padding: 0;
+}
+.card-body .card-title {
+  margin-right: 50px;
+}
+
+.card-player {
+  max-width: 250px;
+}
+.card-player .player-photo {
+  display: block;
+  max-width: 100%;
+}
+
 .card-deck {
   margin-bottom: 50px;
 }
@@ -27,9 +48,8 @@
   width: 45%;
   padding-bottom: 50px;
 }
-.card-deck .card .clubs-logo {
-  align-items: center;
-  justify-items: center;
+.card-deck .card .club-logo {
+  display: block;
   margin: 50px;
   height: 100px;
 }
@@ -38,6 +58,11 @@
   position: absolute;
   text-align: center;
   width: 100%;
+}
+
+.pl-logo {
+  margin: 16px 0;
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

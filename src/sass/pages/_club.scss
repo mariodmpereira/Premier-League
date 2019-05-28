@@ -1,0 +1,22 @@
+.card-img {
+  margin: $sections-margin;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.card-body {
+  padding: 0;
+  
+  .card-title {
+    margin-right: $sections-margin;
+  }
+}
+
+.card-player {
+  max-width: 250px;
+  
+  .player-photo {
+    display: block;
+    max-width: 100%;
+  }
+}
